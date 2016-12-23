@@ -1,14 +1,7 @@
-package com.element.smartdevice.practicedemo.beans;
+package com.element.smartdevice.practicedemo;
 
-import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * Created by Arthur on 2016/12/22.

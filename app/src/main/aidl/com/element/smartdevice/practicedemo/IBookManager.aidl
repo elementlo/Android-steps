@@ -1,6 +1,7 @@
 // IBookManager.aidl
-package com.element.smartdevice.practicedemo.aidl;
-import com.element.smartdevice.practicedemo.beans.Book;
+package com.element.smartdevice.practicedemo;
+
+import com.element.smartdevice.practicedemo.Book;
 
 // Declare any non-default types here with import statements
 
