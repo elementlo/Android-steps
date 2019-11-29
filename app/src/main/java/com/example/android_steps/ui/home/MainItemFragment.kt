@@ -1,6 +1,5 @@
 package com.example.android_steps.ui.home
 
-import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
@@ -12,8 +11,8 @@ import android.view.ViewGroup
 import com.example.android_steps.MyMainItemRecyclerViewAdapter
 import com.example.android_steps.R
 
-import com.example.android_steps.dummy.DummyContent
-import com.example.android_steps.dummy.DummyContent.DummyItem
+import com.example.android_steps.data.DummyContent
+import com.example.android_steps.data.DummyContent.DummyItem
 
 /**
  * A fragment representing a list of Items.

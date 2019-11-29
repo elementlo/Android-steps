@@ -11,8 +11,12 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_mainitem_list" >
         <action
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
             android:id="@+id/action_nav_home_to_mainItemDetailFragment"
-            app:destination="@id/mainItemDetailFragment" />
+            app:destination="@id/mainItemSunflowerFragment" />
     </fragment>
 
     <fragment
@@ -45,7 +49,7 @@
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
     <fragment
-        android:id="@+id/mainItemDetailFragment"
+        android:id="@+id/mainItemSunflowerFragment"
         android:name="com.example.android_steps.ui.home.MainItemSunflowerFragment"
         android:label="Sunflower by Jetpack"
         tools:layout="@layout/main_item_sunflower_fragment" />

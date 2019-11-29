@@ -13,8 +13,6 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
-import com.example.android_steps.dummy.DummyContent
-import com.example.android_steps.ui.home.MainItemFragment
 
 class MainActivity : AppCompatActivity(){
 

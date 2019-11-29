@@ -1,4 +1,4 @@
-package com.example.android_steps.dummy
+package com.example.android_steps.data
 
 import java.util.ArrayList
 import java.util.HashMap

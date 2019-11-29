@@ -5,12 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.navigation.findNavController
 
 
 import com.example.android_steps.ui.home.MainItemFragment.OnListFragmentInteractionListener
-import com.example.android_steps.dummy.DummyContent.DummyItem
+import com.example.android_steps.data.DummyContent.DummyItem
 import com.example.android_steps.ui.home.MainItemFragmentDirections
 
 import kotlinx.android.synthetic.main.fragment_mainitem.view.*
