@@ -37,7 +37,6 @@ class MainItemSunflowerFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(this).get(MainItemDetailViewModel::class.java)
-
     }
 
     private fun getTabIcon(position: Int): Int {
