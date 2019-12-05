@@ -1,9 +1,6 @@
 package com.example.android_steps.data
 
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.Index
-import androidx.room.PrimaryKey
+import androidx.room.*
 import java.util.*
 
 /**
@@ -11,7 +8,15 @@ import java.util.*
  * Time: 2019-12-03
  * Description:
  **/
-@Entity(tableName = "garden_planting", foreignKeys = [], indices = [Index("plant_id")])
+@Entity(
+    tableName = "garden_planting",
+    foreignKeys = [ForeignKey(
+        entity = Plant::class,
+        parentColumns = ["id"],
+        childColumns = ["plant_id"]
+    )],
+    indices = [Index("plant_id")]
+)
 data class GardenPlanting(
     @ColumnInfo(name = "plant_id") val plantId: String,
     @ColumnInfo(name = "plant_date") val plantDate: Calendar = Calendar.getInstance(),
